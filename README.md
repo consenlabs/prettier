@@ -8,12 +8,12 @@ This is prettier config for all `@consenlabs` projects. If you like this style, 
 
 ### Usage
 
-1. Install: `yarn add @consenlabs/prettier -D`
+1. Install: `yarn add @consenlabs-fe/prettier -D`
 2. Configure (`package.json`):
 
 ```json
 {
-  "prettier": "@consenlabs/prettier"
+  "prettier": "@consenlabs-fe/prettier"
 }
 ```
 
