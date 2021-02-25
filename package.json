@@ -1,14 +1,12 @@
 {
   "name": "@consenlabs-fe/prettier",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "prettier.json",
   "repository": "git@github.com:consenlabs/prettier.git",
   "license": "MIT",
   "scripts": {
-    "build": "echo 0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "build": "echo 0",
+    "release": "yarn publish --access public --non-interactive"
   },
   "files": [
     "prettier.json",
